@@ -13,9 +13,6 @@ notifications:
 services:
   - docker
 
-matrix:
-  fast_finish: true
-
 before_install:
   - sudo apt-get install shellcheck
   - pip install -U -r test-requirements.txt
